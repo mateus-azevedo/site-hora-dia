@@ -1,6 +1,5 @@
 function carregar() {
     var msg = window.document.getElementById('msg')
-    var text = window.document.getElementById('text')
     var img = window.document.getElementById('imagem')
     var dataH = new Date()
     var dataM = new Date()
@@ -38,7 +37,6 @@ function carregar() {
         //boa madrugada
         msg.innerHTML = `<h2>Boa madrugada</h2>`
         msg.innerHTML += `<h3>Agora são ${hora} horas e ${minutos} minutos.</h3>`
-        text.innerHTML = "<p>Não vá dormir tarde, um bom sono pode melhorar seu dia!</p>"
         img.src = 'img/fotomadrugada.png'
         document.body.style.background = 'url(https://s1.1zoom.me/big0/393/Milky_Way_Mountains_Sky_442965.jpg)'
         document.body.style.backgroundRepeat = 'no-repeat'
